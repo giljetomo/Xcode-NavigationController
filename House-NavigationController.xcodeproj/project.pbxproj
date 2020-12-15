@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5268023E25883FE1003454F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5268023D25883FE1003454F4 /* AppDelegate.swift */; };
+		5268024025883FE1003454F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5268023F25883FE1003454F4 /* SceneDelegate.swift */; };
+		5268024225883FE1003454F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5268024125883FE1003454F4 /* ViewController.swift */; };
+		5268024525883FE1003454F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5268024325883FE1003454F4 /* Main.storyboard */; };
+		5268024725883FE6003454F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5268024625883FE6003454F4 /* Assets.xcassets */; };
+		5268024A25883FE6003454F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5268024825883FE6003454F4 /* LaunchScreen.storyboard */; };
+		5268025325885AC4003454F4 /* CoatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5268025225885AC4003454F4 /* CoatRoomViewController.swift */; };
+		5268025625885D87003454F4 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5268025525885D87003454F4 /* LibraryViewController.swift */; };
+		5268025925886079003454F4 /* SecretPassageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5268025825886079003454F4 /* SecretPassageViewController.swift */; };
+		5268025C25886F90003454F4 /* DiningRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5268025B25886F90003454F4 /* DiningRoomViewController.swift */; };
+		5268025F2588707D003454F4 /* BackPorchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5268025E2588707D003454F4 /* BackPorchViewController.swift */; };
+		526802622588712E003454F4 /* DungeonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526802612588712E003454F4 /* DungeonViewController.swift */; };
+		52680265258871D4003454F4 /* LaboratoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52680264258871D4003454F4 /* LaboratoryViewController.swift */; };
+		526802682588732A003454F4 /* GeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526802672588732A003454F4 /* GeneratorViewController.swift */; };
+		5268026B258873B3003454F4 /* MysteriousLakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5268026A258873B3003454F4 /* MysteriousLakeViewController.swift */; };
+		5268026E25888216003454F4 /* CursedChaliceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5268026D25888216003454F4 /* CursedChaliceViewController.swift */; };
+		52680271258883C0003454F4 /* KitchenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52680270258883C0003454F4 /* KitchenViewController.swift */; };
+		52680274258884F9003454F4 /* StairsUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52680273258884F9003454F4 /* StairsUpViewController.swift */; };
+		5268027725888610003454F4 /* BedroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5268027625888610003454F4 /* BedroomViewController.swift */; };
+		5268027A258886F8003454F4 /* BathroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52680279258886F8003454F4 /* BathroomViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5268023A25883FE1003454F4 /* House-NavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "House-NavigationController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5268023D25883FE1003454F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5268023F25883FE1003454F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5268024125883FE1003454F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5268024425883FE1003454F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5268024625883FE6003454F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5268024925883FE6003454F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5268024B25883FE6003454F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5268025225885AC4003454F4 /* CoatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoatRoomViewController.swift; sourceTree = "<group>"; };
+		5268025525885D87003454F4 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		5268025825886079003454F4 /* SecretPassageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretPassageViewController.swift; sourceTree = "<group>"; };
+		5268025B25886F90003454F4 /* DiningRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningRoomViewController.swift; sourceTree = "<group>"; };
+		5268025E2588707D003454F4 /* BackPorchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackPorchViewController.swift; sourceTree = "<group>"; };
+		526802612588712E003454F4 /* DungeonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonViewController.swift; sourceTree = "<group>"; };
+		52680264258871D4003454F4 /* LaboratoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaboratoryViewController.swift; sourceTree = "<group>"; };
+		526802672588732A003454F4 /* GeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorViewController.swift; sourceTree = "<group>"; };
+		5268026A258873B3003454F4 /* MysteriousLakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysteriousLakeViewController.swift; sourceTree = "<group>"; };
+		5268026D25888216003454F4 /* CursedChaliceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursedChaliceViewController.swift; sourceTree = "<group>"; };
+		52680270258883C0003454F4 /* KitchenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenViewController.swift; sourceTree = "<group>"; };
+		52680273258884F9003454F4 /* StairsUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StairsUpViewController.swift; sourceTree = "<group>"; };
+		5268027625888610003454F4 /* BedroomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedroomViewController.swift; sourceTree = "<group>"; };
+		52680279258886F8003454F4 /* BathroomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BathroomViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5268023725883FE1003454F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5268023125883FE1003454F4 = {
+			isa = PBXGroup;
+			children = (
+				5268023C25883FE1003454F4 /* House-NavigationController */,
+				5268023B25883FE1003454F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5268023B25883FE1003454F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5268023A25883FE1003454F4 /* House-NavigationController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5268023C25883FE1003454F4 /* House-NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				5268023D25883FE1003454F4 /* AppDelegate.swift */,
+				5268023F25883FE1003454F4 /* SceneDelegate.swift */,
+				5268024125883FE1003454F4 /* ViewController.swift */,
+				5268024325883FE1003454F4 /* Main.storyboard */,
+				52680279258886F8003454F4 /* BathroomViewController.swift */,
+				5268027625888610003454F4 /* BedroomViewController.swift */,
+				52680273258884F9003454F4 /* StairsUpViewController.swift */,
+				52680270258883C0003454F4 /* KitchenViewController.swift */,
+				5268026D25888216003454F4 /* CursedChaliceViewController.swift */,
+				5268026A258873B3003454F4 /* MysteriousLakeViewController.swift */,
+				526802672588732A003454F4 /* GeneratorViewController.swift */,
+				52680264258871D4003454F4 /* LaboratoryViewController.swift */,
+				526802612588712E003454F4 /* DungeonViewController.swift */,
+				5268025E2588707D003454F4 /* BackPorchViewController.swift */,
+				5268025825886079003454F4 /* SecretPassageViewController.swift */,
+				5268025525885D87003454F4 /* LibraryViewController.swift */,
+				5268025B25886F90003454F4 /* DiningRoomViewController.swift */,
+				5268025225885AC4003454F4 /* CoatRoomViewController.swift */,
+				5268024625883FE6003454F4 /* Assets.xcassets */,
+				5268024825883FE6003454F4 /* LaunchScreen.storyboard */,
+				5268024B25883FE6003454F4 /* Info.plist */,
+			);
+			path = "House-NavigationController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5268023925883FE1003454F4 /* House-NavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5268024E25883FE6003454F4 /* Build configuration list for PBXNativeTarget "House-NavigationController" */;
+			buildPhases = (
+				5268023625883FE1003454F4 /* Sources */,
+				5268023725883FE1003454F4 /* Frameworks */,
+				5268023825883FE1003454F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "House-NavigationController";
+			productName = "House-NavigationController";
+			productReference = 5268023A25883FE1003454F4 /* House-NavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5268023225883FE1003454F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					5268023925883FE1003454F4 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 5268023525883FE1003454F4 /* Build configuration list for PBXProject "House-NavigationController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5268023125883FE1003454F4;
+			productRefGroup = 5268023B25883FE1003454F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5268023925883FE1003454F4 /* House-NavigationController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5268023825883FE1003454F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5268024A25883FE6003454F4 /* LaunchScreen.storyboard in Resources */,
+				5268024725883FE6003454F4 /* Assets.xcassets in Resources */,
+				5268024525883FE1003454F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5268023625883FE1003454F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5268024225883FE1003454F4 /* ViewController.swift in Sources */,
+				52680265258871D4003454F4 /* LaboratoryViewController.swift in Sources */,
+				526802622588712E003454F4 /* DungeonViewController.swift in Sources */,
+				52680274258884F9003454F4 /* StairsUpViewController.swift in Sources */,
+				52680271258883C0003454F4 /* KitchenViewController.swift in Sources */,
+				5268025625885D87003454F4 /* LibraryViewController.swift in Sources */,
+				5268023E25883FE1003454F4 /* AppDelegate.swift in Sources */,
+				5268026E25888216003454F4 /* CursedChaliceViewController.swift in Sources */,
+				5268026B258873B3003454F4 /* MysteriousLakeViewController.swift in Sources */,
+				5268025925886079003454F4 /* SecretPassageViewController.swift in Sources */,
+				5268025F2588707D003454F4 /* BackPorchViewController.swift in Sources */,
+				5268025325885AC4003454F4 /* CoatRoomViewController.swift in Sources */,
+				5268025C25886F90003454F4 /* DiningRoomViewController.swift in Sources */,
+				5268027725888610003454F4 /* BedroomViewController.swift in Sources */,
+				5268024025883FE1003454F4 /* SceneDelegate.swift in Sources */,
+				5268027A258886F8003454F4 /* BathroomViewController.swift in Sources */,
+				526802682588732A003454F4 /* GeneratorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5268024325883FE1003454F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5268024425883FE1003454F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5268024825883FE6003454F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5268024925883FE6003454F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5268024C25883FE6003454F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5268024D25883FE6003454F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5268024F25883FE6003454F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AYHFX5HL8Z;
+				INFOPLIST_FILE = "House-NavigationController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giljetomo.House-NavigationController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5268025025883FE6003454F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AYHFX5HL8Z;
+				INFOPLIST_FILE = "House-NavigationController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giljetomo.House-NavigationController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5268023525883FE1003454F4 /* Build configuration list for PBXProject "House-NavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5268024C25883FE6003454F4 /* Debug */,
+				5268024D25883FE6003454F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5268024E25883FE6003454F4 /* Build configuration list for PBXNativeTarget "House-NavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5268024F25883FE6003454F4 /* Debug */,
+				5268025025883FE6003454F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5268023225883FE1003454F4 /* Project object */;
+}
