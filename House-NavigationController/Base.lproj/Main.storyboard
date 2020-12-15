@@ -28,7 +28,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="front_door" translatesAutoresizingMaskIntoConstraints="NO" id="CA6-oW-N4R">
-                                <rect key="frame" x="0.66666666666662877" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
+                                <rect key="frame" x="0.66666666666665719" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="CA6-oW-N4R" secondAttribute="height" multiplier="1:1" id="bCM-ii-Yux"/>
                                     <constraint firstAttribute="height" secondItem="CA6-oW-N4R" secondAttribute="height" multiplier="1:1" id="cwq-Ay-95u"/>
@@ -61,7 +61,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coat_room" translatesAutoresizingMaskIntoConstraints="NO" id="ada-6w-CIj">
-                                <rect key="frame" x="0.66666666666662877" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
+                                <rect key="frame" x="0.66666666666665719" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ada-6w-CIj" secondAttribute="height" multiplier="1:1" id="41e-Mx-0J9"/>
                                 </constraints>
@@ -70,9 +70,9 @@
                                 <rect key="frame" x="134" y="553.66666666666663" width="122" height="231.33333333333337"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ur4-gA-sMH">
-                                        <rect key="frame" x="28" y="0.0" width="66" height="39"/>
+                                        <rect key="frame" x="28" y="0.0" width="66" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="39" id="I3u-9t-eND"/>
+                                            <constraint firstAttribute="height" constant="30" id="I3u-9t-eND"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Library"/>
@@ -81,9 +81,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nh9-Nr-Uca">
-                                        <rect key="frame" x="0.0" y="96" width="122" height="39"/>
+                                        <rect key="frame" x="0.0" y="100.66666666666674" width="122" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="39" id="ay5-h1-Jky"/>
+                                            <constraint firstAttribute="height" constant="30" id="ay5-h1-Jky"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Dining Room"/>
@@ -92,9 +92,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fki-8D-fpL">
-                                        <rect key="frame" x="17.666666666666657" y="192.33333333333337" width="87" height="39"/>
+                                        <rect key="frame" x="17.666666666666657" y="201.33333333333337" width="87" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="39" id="7ZK-SZ-qog"/>
+                                            <constraint firstAttribute="height" constant="30" id="7ZK-SZ-qog"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Stairs Up"/>
@@ -137,7 +137,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stairs_up" translatesAutoresizingMaskIntoConstraints="NO" id="QRL-2g-Zxw">
-                                <rect key="frame" x="0.66666666666662877" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
+                                <rect key="frame" x="0.66666666666665719" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="QRL-2g-Zxw" secondAttribute="height" multiplier="1:1" id="3RG-8S-QRm"/>
                                 </constraints>
@@ -231,7 +231,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="library" translatesAutoresizingMaskIntoConstraints="NO" id="O9r-G8-ZlQ">
-                                <rect key="frame" x="0.66666666666662877" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
+                                <rect key="frame" x="0.66666666666665719" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
                                 <constraints>
                                     <constraint firstAttribute="height" secondItem="O9r-G8-ZlQ" secondAttribute="height" multiplier="1:1" id="YTn-8x-Ugl"/>
                                     <constraint firstAttribute="width" secondItem="O9r-G8-ZlQ" secondAttribute="height" multiplier="1:1" id="oqh-tt-Ndn"/>
@@ -281,7 +281,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="labratory" translatesAutoresizingMaskIntoConstraints="NO" id="1Yz-N3-TiW">
-                                <rect key="frame" x="0.66666666666662877" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
+                                <rect key="frame" x="0.66666666666665719" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
                                 <constraints>
                                     <constraint firstAttribute="height" secondItem="1Yz-N3-TiW" secondAttribute="height" multiplier="1:1" id="EJB-6F-wTN"/>
                                     <constraint firstAttribute="width" secondItem="1Yz-N3-TiW" secondAttribute="height" multiplier="1:1" id="aIl-BZ-GFH"/>
@@ -331,7 +331,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mysterious_lake" translatesAutoresizingMaskIntoConstraints="NO" id="F8H-7q-dWY">
-                                <rect key="frame" x="0.66666666666662877" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
+                                <rect key="frame" x="0.66666666666665719" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
                                 <constraints>
                                     <constraint firstAttribute="height" secondItem="F8H-7q-dWY" secondAttribute="height" multiplier="1:1" id="88K-WX-V76"/>
                                     <constraint firstAttribute="width" secondItem="F8H-7q-dWY" secondAttribute="height" multiplier="1:1" id="AKs-Mj-shh"/>
@@ -381,7 +381,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dining_room" translatesAutoresizingMaskIntoConstraints="NO" id="dpw-23-wfH">
-                                <rect key="frame" x="0.66666666666662877" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
+                                <rect key="frame" x="0.66666666666665719" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
                                 <constraints>
                                     <constraint firstAttribute="height" secondItem="dpw-23-wfH" secondAttribute="height" multiplier="1:1" id="c0L-Yo-eeL"/>
                                     <constraint firstAttribute="width" secondItem="dpw-23-wfH" secondAttribute="height" multiplier="1:1" id="n3A-tc-8vw"/>
@@ -431,7 +431,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kitchen" translatesAutoresizingMaskIntoConstraints="NO" id="kKn-oJ-AGG">
-                                <rect key="frame" x="0.66666666666662877" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
+                                <rect key="frame" x="0.66666666666665719" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
                                 <constraints>
                                     <constraint firstAttribute="height" secondItem="kKn-oJ-AGG" secondAttribute="height" multiplier="1:1" id="IFY-HS-Cnj"/>
                                     <constraint firstAttribute="width" secondItem="kKn-oJ-AGG" secondAttribute="height" multiplier="1:1" id="SSk-RX-KYF"/>
@@ -470,7 +470,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bedroom" translatesAutoresizingMaskIntoConstraints="NO" id="FY4-1Y-s0y">
-                                <rect key="frame" x="0.66666666666662877" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
+                                <rect key="frame" x="0.66666666666665719" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="FY4-1Y-s0y" secondAttribute="height" multiplier="1:1" id="QO8-kQ-KIZ"/>
                                     <constraint firstAttribute="height" secondItem="FY4-1Y-s0y" secondAttribute="height" multiplier="1:1" id="jjp-NW-IyP"/>
@@ -506,7 +506,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_porch" translatesAutoresizingMaskIntoConstraints="NO" id="H0C-qU-ofa">
-                                <rect key="frame" x="0.66666666666662877" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
+                                <rect key="frame" x="0.66666666666665719" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="H0C-qU-ofa" secondAttribute="height" multiplier="1:1" id="6b0-z7-gXo"/>
                                     <constraint firstAttribute="height" secondItem="H0C-qU-ofa" secondAttribute="height" multiplier="1:1" id="yii-EX-GiF"/>
@@ -542,7 +542,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cursed_chalice" translatesAutoresizingMaskIntoConstraints="NO" id="gQt-27-ukR">
-                                <rect key="frame" x="0.66666666666662877" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
+                                <rect key="frame" x="0.66666666666665719" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="gQt-27-ukR" secondAttribute="height" multiplier="1:1" id="IqX-R5-Bii"/>
                                     <constraint firstAttribute="height" secondItem="gQt-27-ukR" secondAttribute="height" multiplier="1:1" id="XfN-Rr-Z0u"/>
@@ -578,7 +578,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dungeon" translatesAutoresizingMaskIntoConstraints="NO" id="eAh-HI-FT1">
-                                <rect key="frame" x="0.66666666666662877" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
+                                <rect key="frame" x="0.66666666666665719" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
                                 <constraints>
                                     <constraint firstAttribute="height" secondItem="eAh-HI-FT1" secondAttribute="height" multiplier="1:1" id="aB2-80-gp8"/>
                                     <constraint firstAttribute="width" secondItem="eAh-HI-FT1" secondAttribute="height" multiplier="1:1" id="uI8-xj-ywy"/>
@@ -655,13 +655,13 @@
                                     <constraint firstAttribute="width" secondItem="aju-vV-TWl" secondAttribute="height" multiplier="1:1" id="ioe-xl-LfZ"/>
                                 </constraints>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sD0-sW-9ZI">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sD0-sW-9ZI">
                                 <rect key="frame" x="117.66666666666669" y="553.66666666666663" width="155" height="231.33333333333337"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGg-CE-1gB">
-                                        <rect key="frame" x="33.333333333333329" y="0.0" width="88" height="39"/>
+                                        <rect key="frame" x="33.333333333333329" y="0.0" width="88" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="39" id="wSh-pc-A4W"/>
+                                            <constraint firstAttribute="height" constant="30" id="wSh-pc-A4W"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Dungeon"/>
@@ -670,9 +670,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0u-YM-OmE">
-                                        <rect key="frame" x="25.333333333333329" y="96" width="103.99999999999999" height="39"/>
+                                        <rect key="frame" x="25.333333333333329" y="100.66666666666674" width="103.99999999999999" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="39" id="3Zh-jJ-cc6"/>
+                                            <constraint firstAttribute="height" constant="30" id="3Zh-jJ-cc6"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Laboratory"/>
@@ -681,9 +681,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ShT-xq-mbc">
-                                        <rect key="frame" x="0.0" y="192.33333333333337" width="155" height="39"/>
+                                        <rect key="frame" x="0.0" y="201.33333333333337" width="155" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="39" id="Bcc-H5-YgA"/>
+                                            <constraint firstAttribute="height" constant="30" id="Bcc-H5-YgA"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Mysterious Lake"/>
@@ -726,7 +726,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bathroom" translatesAutoresizingMaskIntoConstraints="NO" id="8Uq-Ab-eI7">
-                                <rect key="frame" x="0.66666666666662877" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
+                                <rect key="frame" x="0.66666666666665719" y="140.00000000000003" width="388.66666666666674" height="388.66666666666674"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="8Uq-Ab-eI7" secondAttribute="height" multiplier="1:1" id="iOo-FG-Ugh"/>
                                     <constraint firstAttribute="height" secondItem="8Uq-Ab-eI7" secondAttribute="height" multiplier="1:1" id="nyx-uf-Y1o"/>
